@@ -4,6 +4,8 @@
 
 Collections of my Java Programs coming from IntelliJ IDEA IDE
 
+***DIRECTORY STRUCTURE***
+---
 ```.
 ├── build_all.sh
 ├── .gitignore
@@ -19,9 +21,10 @@ Collections of my Java Programs coming from IntelliJ IDEA IDE
 │   └── com
 │       └── example
 │           ├── Array.java
+│           ├── InputDetails.java
 │           ├── InputLoop.java
 │           └── Switch.java
 └── .travis.yml
 
-4 directories, 13 files
+4 directories, 14 files
 ```
