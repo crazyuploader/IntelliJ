@@ -1,0 +1,9 @@
+os: linux
+dist: bionic
+language: java
+jdk:
+  - openjdk8
+  - openjdk10
+  - openjdk11
+script:
+  - bash build_all.sh
