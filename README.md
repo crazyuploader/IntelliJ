@@ -19,12 +19,14 @@ Collections of my Java Programs coming from IntelliJ IDEA IDE
 ├── README.md
 ├── src
 │   └── com
-│       └── example
-│           ├── Array.java
-│           ├── InputDetails.java
-│           ├── InputLoop.java
-│           └── Switch.java
+│       ├── example
+│       │   ├── Array.java
+│       │   ├── InputDetails.java
+│       │   ├── InputLoop.java
+│       │   └── Switch.java
+│       └── methods
+│           └── Average.java
 └── .travis.yml
 
-4 directories, 14 files
+5 directories, 15 files
 ```
