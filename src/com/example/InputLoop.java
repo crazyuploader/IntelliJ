@@ -13,7 +13,6 @@ public class InputLoop {
         do {
             input = JOptionPane.showInputDialog("Enter a number in range 0 and 100");
             number = Integer.parseInt(input);
-
             if (number < 0 || number > 100)
             {
                 JOptionPane.showMessageDialog(null,
@@ -26,6 +25,7 @@ public class InputLoop {
                 notInRange = false;
             }
         } while (notInRange);
+
         System.exit(0);
     }
 }
