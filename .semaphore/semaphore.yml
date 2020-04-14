@@ -1,0 +1,25 @@
+version: v1.0
+name: Initial Pipeline
+agent:
+  machine:
+    type: e1-standard-2
+    os_image: ubuntu1804
+blocks:
+  - name: Java 8
+    dependencies: []
+    task:
+      jobs:
+        - name: Java 8
+          commands:
+            - checkout
+            - sem-version java 8
+            - bash build_all.sh
+  - name: Java 11
+    dependencies: []
+    task:
+      jobs:
+        - name: Java 11
+          commands:
+            - checkout
+            - sem-version java 11
+            - bash build_all.sh
