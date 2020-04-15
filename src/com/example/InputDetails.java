@@ -22,11 +22,15 @@ public class InputDetails {
         address = JOptionPane.showInputDialog("Enter your address");
 
         System.out.println("\nEntered Details are: \n");
-        System.out.println("Full Name: " + firstName + " " + lastName);
+        System.out.println("Full Name: " + getFullName(firstName, lastName));
         System.out.println("Phone Number: " + phoneNumber);
         System.out.println("Age: " + age);
         System.out.println("Address: " + address);
 
         System.exit(0);
+    }
+    public static String getFullName(String first, String last)
+    {
+        return (first + " " + last);
     }
 }
