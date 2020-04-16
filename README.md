@@ -23,6 +23,7 @@ Collections of my Java Programs coming from IntelliJ IDEA IDE
 │   └── com
 │       ├── example
 │       │   ├── Array.java
+│       │   ├── ArraySumAverage.java
 │       │   ├── InputDetails.java
 │       │   ├── InputLoop.java
 │       │   └── Switch.java
@@ -30,5 +31,5 @@ Collections of my Java Programs coming from IntelliJ IDEA IDE
 │           └── Average.java
 └── .travis.yml
 
-6 directories, 16 files
+6 directories, 17 files
 ```
