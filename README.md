@@ -21,6 +21,9 @@ Collections of my Java Programs coming from IntelliJ IDEA IDE
 │   └── semaphore.yml
 ├── src
 │   └── com
+│       ├── ClassesAndObjects
+│       │   ├── House.java
+│       │   └── Main.java
 │       ├── example
 │       │   ├── Array.java
 │       │   ├── ArraySumAverage.java
@@ -31,5 +34,5 @@ Collections of my Java Programs coming from IntelliJ IDEA IDE
 │           └── Average.java
 └── .travis.yml
 
-6 directories, 17 files
+7 directories, 19 files
 ```
