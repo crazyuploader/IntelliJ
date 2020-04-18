@@ -22,7 +22,7 @@ public class ArraySumAverage {
             array[i] = Integer.parseInt(input);
             i++;
         }
-        System.out.println("");
+        System.out.println();
         System.out.println("Entered Array = " + java.util.Arrays.toString(array));
 
         for(i=0; i<array.length; i++)
@@ -30,7 +30,7 @@ public class ArraySumAverage {
             sum = sum + array[i];
         }
 
-        System.out.println("");
+        System.out.println();
         System.out.println("Sum of entered Array: " + sum);
         System.out.println("Average of entered Array: " + getAverage(sum, array.length));
     }

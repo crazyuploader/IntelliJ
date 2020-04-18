@@ -14,7 +14,7 @@ public class Average {
         value1 = Integer.parseInt(input);
         input = JOptionPane.showInputDialog("Enter second number");
         value2 = Integer.parseInt(input);
-        System.out.println("");
+        System.out.println();
         System.out.println("Average of " + value1 + " and " + value2 + " is = " + getAverage(value1, value2));
 
         System.exit(0);

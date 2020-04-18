@@ -12,7 +12,7 @@ public class Main {
 
         House house2 = new House(2, 4, "Plaster", "Brick");
 
-        System.out.println("");
+        System.out.println();
         System.out.println("Second House");
         System.out.println("No. of Doors: " + house2.getNoOfDoors());
         System.out.println("No. of Windows: " + house2.getNoOfWindows());
