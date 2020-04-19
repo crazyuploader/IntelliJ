@@ -17,18 +17,19 @@ for f in ${LIST_FILES}; do
 done
 echo ""
 echo -e "${YELLOW}Compiling with Javac using Ant${NC}"
-ant > build.txt
+ANT_OUTPUT="$(ant)"
 ERROR_CODE="$?"
 if [[ ${ERROR_CODE} != "0" ]]; then
     echo ""
-    echo -e "${RED}$(cat build.txt)${NC}"
+    echo -e "${RED}${ANT_OUTPUT}${NC}"
     echo ""
     echo -e "${YELLOW}Error(s) in some file(s).${NC}"
     echo ""
     echo -e "No. of file(s) checked: ${GREEN}${FILES}${NC}"
+    exit 1
 else
     echo ""
-    cat build.txt
+    echo "${ANT_OUTPUT}"
     echo ""
     echo -e "No. of file(s) checked: ${GREEN}${FILES}${NC}"
 fi
