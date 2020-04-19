@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.com/crazyuploader/IntelliJ.svg?branch=master)](https://travis-ci.com/crazyuploader/IntelliJ) [![Build Status](https://crazyuploader.semaphoreci.com/badges/IntelliJ.svg)](https://crazyuploader.semaphoreci.com/projects/IntelliJ)
 
+[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/crazyuploader/IntelliJ)
+
 Collections of my Java Programs coming from IntelliJ IDEA IDE
 
 ***DIRECTORY STRUCTURE***
@@ -11,6 +13,7 @@ Collections of my Java Programs coming from IntelliJ IDEA IDE
 ├── build_all.sh
 ├── build.xml
 ├── .gitignore
+├── .gitpod.yml
 ├── .idea
 │   ├── .gitignore
 │   ├── misc.xml
@@ -36,5 +39,5 @@ Collections of my Java Programs coming from IntelliJ IDEA IDE
 │           └── Average.java
 └── .travis.yml
 
-7 directories, 21 files
+7 directories, 22 files
 ```
