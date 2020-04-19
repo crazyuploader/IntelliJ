@@ -14,6 +14,10 @@ blocks:
             - checkout
             - sem-version java 8
             - bash build_all.sh
+      prologue:
+        commands:
+          - sudo apt-get update
+          - sudo apt-get upgrade -y
   - name: Java 11
     dependencies: []
     task:
@@ -23,3 +27,7 @@ blocks:
             - checkout
             - sem-version java 11
             - bash build_all.sh
+      prologue:
+        commands:
+          - sudo apt-get update
+          - sudo apt-get upgrade -y
