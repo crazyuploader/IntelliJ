@@ -7,7 +7,9 @@ Collections of my Java Programs coming from IntelliJ IDEA IDE
 ***DIRECTORY STRUCTURE***
 ---
 ```.
+├── .build_all.sh
 ├── build_all.sh
+├── build.xml
 ├── .gitignore
 ├── .idea
 │   ├── .gitignore
@@ -34,5 +36,5 @@ Collections of my Java Programs coming from IntelliJ IDEA IDE
 │           └── Average.java
 └── .travis.yml
 
-7 directories, 19 files
+7 directories, 21 files
 ```
