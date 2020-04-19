@@ -1,0 +1,8 @@
+Buildfile: /tome/jungle/Projects/Java/build.xml
+
+compile:
+    [mkdir] Created dir: /tome/jungle/Projects/Java/out
+    [javac] Compiling 8 source files to /tome/jungle/Projects/Java/out
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
