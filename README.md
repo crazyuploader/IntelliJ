@@ -6,8 +6,8 @@
 
 Collections of my Java Programs coming from IntelliJ IDEA IDE
 
-***DIRECTORY STRUCTURE***
----
+## **_DIRECTORY STRUCTURE_**
+
 ```.
 ├── .build_all.sh
 ├── build_all.sh
