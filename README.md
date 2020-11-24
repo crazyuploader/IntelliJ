@@ -6,8 +6,8 @@
 
 Collections of my Java Programs coming from IntelliJ IDEA IDE
 
-## **_DIRECTORY STRUCTURE_**
-
+***DIRECTORY STRUCTURE***
+---
 ```.
 ├── .build_all.sh
 ├── build_all.sh
@@ -18,26 +18,26 @@ Collections of my Java Programs coming from IntelliJ IDEA IDE
 │   ├── .gitignore
 │   ├── misc.xml
 │   ├── modules.xml
-│   ├── vcs.xml
-│   └── workspace.xml
+│   └── vcs.xml
 ├── Java.iml
 ├── README.md
 ├── .semaphore
 │   └── semaphore.yml
 ├── src
 │   └── com
-│       ├── ClassesAndObjects
-│       │   ├── House.java
-│       │   └── Main.java
-│       ├── example
-│       │   ├── Array.java
-│       │   ├── ArraySumAverage.java
-│       │   ├── InputDetails.java
-│       │   ├── InputLoop.java
-│       │   └── Switch.java
-│       └── methods
-│           └── Average.java
+│       └── java
+│           ├── ClassesAndObjects
+│           │   ├── House.java
+│           │   └── Main.java
+│           ├── example
+│           │   ├── Array.java
+│           │   ├── ArraySumAverage.java
+│           │   ├── InputDetails.java
+│           │   ├── InputLoop.java
+│           │   └── Switch.java
+│           └── methods
+│               └── Average.java
 └── .travis.yml
 
-7 directories, 22 files
+8 directories, 21 files
 ```
