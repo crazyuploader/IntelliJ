@@ -1,4 +1,4 @@
-package com.methods;
+package com.java.methods;
 
 import javax.swing.*;
 

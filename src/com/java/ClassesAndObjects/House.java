@@ -1,4 +1,4 @@
-package com.ClassesAndObjects;
+package com.java.ClassesAndObjects;
 
 public class House {
     private int noOfDoors;
