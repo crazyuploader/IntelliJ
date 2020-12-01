@@ -10,7 +10,7 @@ RED="\033[0;31m"
 echo ""
 echo -e "${GREEN}" "Available File(s) -${NC}"
 FILES=0
-LIST_FILES="$(find src/ -name '*.java')"
+LIST_FILES="$(find src/ -name '*.java' | sort)"
 for f in ${LIST_FILES}; do
     ((FILES = FILES + 1))
     echo "${f}"
