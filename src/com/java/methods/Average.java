@@ -16,6 +16,7 @@ public class Average {
         value2 = Integer.parseInt(input);
         System.out.println();
         System.out.println("Average of " + value1 + " and " + value2 + " is = " + getAverage(value1, value2));
+        printAverage(value1, value2);
 
         System.exit(0);
     }
