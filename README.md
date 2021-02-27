@@ -18,26 +18,36 @@ Collections of my Java Programs coming from IntelliJ IDEA IDE
 │   ├── .gitignore
 │   ├── misc.xml
 │   ├── modules.xml
-│   └── vcs.xml
+│   ├── vcs.xml
+│   └── workspace.xml
 ├── Java.iml
 ├── README.md
 ├── .semaphore
 │   └── semaphore.yml
-├── src
-│   └── com
-│       └── java
-│           ├── ClassesAndObjects
-│           │   ├── House.java
-│           │   └── Main.java
-│           ├── example
-│           │   ├── Array.java
-│           │   ├── ArraySumAverage.java
-│           │   ├── InputDetails.java
-│           │   ├── InputLoop.java
-│           │   └── Switch.java
-│           └── methods
-│               └── Average.java
-└── .travis.yml
+└── src
+    └── com
+        └── java
+            ├── ClassesAndObjects
+            │   ├── House.java
+            │   └── Main.java
+            ├── example
+            │   ├── Array.java
+            │   ├── ArraySumAverage.java
+            │   ├── InputDetails.java
+            │   ├── InputLoop.java
+            │   └── Switch.java
+            ├── methods
+            │   └── Average.java
+            └── PracticalFile
+                ├── Fifth.java
+                ├── First.java
+                ├── Fourth.java
+                ├── Second.java
+                ├── Seventh.java
+                ├── Sixth.java
+                ├── Tenth.java
+                ├── Third.java
+                └── Twelfth.java
 
-8 directories, 21 files
+9 directories, 30 files
 ```
