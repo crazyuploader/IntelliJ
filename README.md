@@ -1,6 +1,6 @@
 # IntelliJ
 
-[![Build Status](https://travis-ci.com/crazyuploader/IntelliJ.svg?branch=master)](https://travis-ci.com/crazyuploader/IntelliJ) [![Build Status](https://crazyuploader.semaphoreci.com/badges/IntelliJ.svg)](https://crazyuploader.semaphoreci.com/projects/IntelliJ) [![CodeFactor](https://www.codefactor.io/repository/github/crazyuploader/intellij/badge)](https://www.codefactor.io/repository/github/crazyuploader/intellij) [![Language grade: Java](https://img.shields.io/lgtm/grade/java/g/crazyuploader/IntelliJ.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/crazyuploader/IntelliJ/context:java)
+[![Build Status](https://crazyuploader.semaphoreci.com/badges/IntelliJ.svg)](https://crazyuploader.semaphoreci.com/projects/IntelliJ) [![CodeFactor](https://www.codefactor.io/repository/github/crazyuploader/intellij/badge)](https://www.codefactor.io/repository/github/crazyuploader/intellij) [![Language grade: Java](https://img.shields.io/lgtm/grade/java/g/crazyuploader/IntelliJ.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/crazyuploader/IntelliJ/context:java)
 
 [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/crazyuploader/IntelliJ)
 
